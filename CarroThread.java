@@ -1,3 +1,4 @@
+
 package control;
 import java.util.Random;
 import javax.swing.ImageIcon;
@@ -29,7 +30,7 @@ public class CarroThread extends JLabel implements Runnable {
         posX += new Random().nextInt(5) * 10;
         this.setLocation(posX, posY);
 
-        if (posX >= 900)
+        if (posX >= 1000)
             return;
 
         try {
