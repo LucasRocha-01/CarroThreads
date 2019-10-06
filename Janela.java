@@ -1,3 +1,4 @@
+
 package view;
 import java.awt.Color;
 import java.awt.LayoutManager;
@@ -42,7 +43,7 @@ public class Janela extends JFrame implements ActionListener {
         this.lblVelocimetro = new JLabel(velocimetro);
         // POSICIONANDO OS ELEMENTOS DO FORM
         this.lblVelocimetro.setBounds(200, 490, 150, 150);
-        this.lblPista.setBounds(0, 0, 1280, 650);
+        this.lblPista.setBounds(0, 0, 1275, 650);
        
         this.add(lblPista);
         this.lblPista.add(lblVelocimetro);
